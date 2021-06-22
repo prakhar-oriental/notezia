@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="360dp"
+    android:background="@drawable/shapbox">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="249dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/shapbox2"
+        android:paddingLeft="22dp"
+        android:text="Edit Note"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/unotetitle"
+        android:layout_width="315dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="41dp"
+        android:background="@drawable/shapbox"
+        android:ems="10"
+        android:hint="Note Title"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <EditText
+        android:id="@+id/unotedesc"
+        android:layout_width="315dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/shapbox"
+        android:ems="10"
+        android:gravity="start|center"
+        android:hint="Note Description"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/unotetitle" />
+
+    <Button
+        android:id="@+id/updatebutton"
+        android:layout_width="142dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/shapbox2"
+        android:text="Update"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/unotedesc"
+        app:layout_constraintVertical_bias="0.228" />
+</androidx.constraintlayout.widget.ConstraintLayout>

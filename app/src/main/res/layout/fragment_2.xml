@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment2">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <EditText
+            android:id="@+id/notestitle"
+            android:layout_width="354dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/shapbox"
+            android:ems="10"
+            android:hint="Note Title"
+            android:inputType="textPersonName"
+            android:padding="20dp"
+            android:text=""
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+        <EditText
+            android:id="@+id/notesdescription"
+            android:layout_width="354dp"
+            android:layout_height="155dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/shapbox"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="Note description"
+            android:inputType="textMultiLine"
+            android:padding="10dp"
+            android:text=""
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/notestitle" />
+
+        <Button
+            android:id="@+id/notesavebtn"
+            android:layout_width="169dp"
+            android:layout_height="51dp"
+            android:background="@drawable/shapbox2"
+            android:padding="3dp"
+            android:text="Save"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/notesdescription"
+            app:layout_constraintVertical_bias="0.179" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="331dp"
+            android:layout_height="136dp"
+            android:layout_marginTop="48dp"
+            android:src="@drawable/largenotezia"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

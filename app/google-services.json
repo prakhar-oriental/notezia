@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1046881098291",
+    "project_id": "notezia-92528",
+    "storage_bucket": "notezia-92528.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046881098291:android:aa4ef1b501faf7ef28a146",
+        "android_client_info": {
+          "package_name": "com.example.notezia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1046881098291-fsgktcqv97oivr9b9ejcondio06kf6m0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLnr_667fi8Imsi7bAi31u_cW5hUra8KE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1046881098291-fsgktcqv97oivr9b9ejcondio06kf6m0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
