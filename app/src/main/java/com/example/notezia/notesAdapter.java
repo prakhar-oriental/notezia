@@ -81,8 +81,9 @@ class notesAdapter extends FirebaseRecyclerAdapter<model,notesAdapter.myviewhold
                     @Override
                     public void onClick(View v) {
                         Map<String,Object> map = new HashMap<>();
-                        map.put("notedesc",ntitle.getText().toString());
-                        map.put("notetitle",ndesc.getText().toString());
+                   //     map.put("notedesc",ntitle.getText().toString());
+                        map.put("notetitle",ntitle.getText().toString());
+                        map.put("notedesc",ndesc.getText().toString());
 
                         FirebaseDatabase.getInstance().getReference()
                                 .child("Notes")

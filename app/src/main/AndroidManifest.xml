@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.notezia">
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
 
     <application
         android:usesCleartextTraffic="true"
@@ -12,11 +13,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Notezia">
-        <activity android:name=".Aboutus"></activity>
-        <activity android:name=".homescreen"></activity>
-        <activity android:name=".loginuser" />
-        <activity android:name=".createuser" />
-        <activity android:name=".splashscreen">
+        <activity android:name=".Aboutus" android:screenOrientation="portrait"></activity>
+        <activity android:name=".homescreen" android:screenOrientation="portrait"></activity>
+        <activity android:name=".loginuser" android:screenOrientation="portrait" />
+        <activity android:name=".createuser" android:screenOrientation="portrait" />
+        <activity android:name=".splashscreen" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
